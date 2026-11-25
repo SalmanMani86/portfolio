@@ -29,6 +29,9 @@ const skillsData = [
   { name: 'HTML/CSS', level: 95, category: 'frontend' },
   { name: 'Node.js', level: 90, category: 'backend' },
   { name: 'Express.js', level: 88, category: 'backend' },
+  { name: 'C#', level: 78, category: 'backend' },
+  { name: '.NET Core', level: 78, category: 'backend' },
+  { name: 'ASP.NET Core Web API', level: 78, category: 'backend' },
   { name: 'REST APIs', level: 90, category: 'backend' },
   { name: 'JWT Authentication', level: 85, category: 'backend' },
   { name: 'Microservices', level: 82, category: 'backend' },
@@ -46,6 +49,7 @@ const skillsData = [
   { name: 'MongoDB', level: 88, category: 'database' },
   { name: 'PostgreSQL', level: 85, category: 'database' },
   { name: 'MySQL', level: 82, category: 'database' },
+  { name: 'SQL Server', level: 78, category: 'database' },
   { name: 'Redis', level: 78, category: 'database' },
   { name: 'Prisma', level: 78, category: 'database' },
   { name: 'Docker', level: 80, category: 'devops' },
@@ -213,7 +217,7 @@ function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Full Stack Developer with <span className="highlight">5+ years</span> in Next.js, React, Node.js and TypeScript, building production SaaS and fintech platforms — from identity verification at 1,000 concurrent users to a Stripe Connect lending marketplace. Recent work in <span className="highlight">RAG and LLM systems</span> with Python.
+            Full Stack Developer with <span className="highlight">5+ years</span> in Next.js, React, Node.js, TypeScript and C#/.NET, building production SaaS and fintech platforms — from identity verification at 1,000 concurrent users to a Stripe Connect lending marketplace. Recent work in <span className="highlight">RAG and LLM systems</span> with Python.
           </motion.p>
           
           <motion.div 
